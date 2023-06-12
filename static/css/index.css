@@ -27,6 +27,10 @@ body {
   font-family: 'Google Sans', sans-serif;
 }
 
+.square_teaser {
+  margin: auto;
+  width: 50%;
+}
 
 .publication-title {
 }
@@ -34,6 +38,10 @@ body {
 .publication-banner {
   max-height: parent;
 
+}
+
+.color_white {
+  color: #fff;
 }
 
 .publication-banner video {
