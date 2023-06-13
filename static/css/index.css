@@ -32,6 +32,12 @@ body {
   width: 50%;
 }
 
+.experiment {
+  width: 100%;
+  margin: auto;
+}
+
+
 .publication-title {
 }
 
