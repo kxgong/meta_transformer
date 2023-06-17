@@ -34,10 +34,14 @@ body {
   transform: scale(1.1);
 }
 .multi_column {
-  column-count: 10;
+  column-count: 6;
   /* padding: 100px; */
   column-gap: 20px;
   column-rule: 1.4px dotted rgb(133, 204, 232);
+}
+
+#modality_image{
+  height: 80px;
 }
 
 .modality {
