@@ -143,9 +143,7 @@
 <section class="hero teaser square_teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <div class="hvr-grow">
       <img src="static/images/teaser.jpeg" alt="Teaser"/>
-      </div>
       <h2 class="subtitle has-text-centered">
         Unified Multimodal Learning. Meta-Transformer utilizes the same backbone to encode natural languages, images, point clouds, audio, video, infrared, hyperspectral, X-ray, time-series, tabular, and graph data. It reveals the potential of transformer architectures for universal perception. 
       </h2>
@@ -155,12 +153,68 @@
 <!-- End teaser video -->
 
 <section class="section">
+<h2 class="title is-4 has-text-centered">
+Modalities
+</h2>
+<div class=" multi_column">
+  <div class="has-text-centered">
+    <a href="https://en.wikipedia.org/wiki/ImageNet" target="_blank">
+      <p> Image</p>
+    </a>
+  </div>
+  <div class="has-text-centered">
+    <a href="https://en.wikipedia.org/wiki/Point_cloud", target="_blank">
+      <p> Point Cloud</p>
+    </a>  
+  </div>
+  <div class="has-text-centered">
+    <a href="https://en.wikipedia.org/wiki/Medical_image_computing", target="_blank">
+      <p> Medical Image</p>
+    </a>
+  </div>
+  <div class="has-text-centered">
+    <a href="https://en.wikipedia.org/wiki/Hyperspectral_imaging", target="_blank">
+      <p> Hyperspectral</p>
+    </a>
+  </div>
+  <div class="has-text-centered">
+    <a href="https://en.wikipedia.org/wiki/Graph_(abstract_data_type)", target="_blank">
+    <p> Graph Data</p>
+    </a>
+  </div>
+  <div class="has-text-centered">
+    <a href="https://en.wikipedia.org/wiki/Audio_mining#Audio_Classification", target="_blank">
+    <p> Audio</p>
+    </a>
+  </div>
+  <div class="has-text-centered">
+    <a href="https://en.wikipedia.org/wiki/Video_content_analysis", target="_blank">
+    <p> Video</p>
+    </a>
+  </div>
+  <div class="has-text-centered">
+    <a href="https://en.wikipedia.org/wiki/Thermographic_camera", target="_blank">
+    <p> Infrared Image</p>
+    </a>
+  </div>
+  <div class="has-text-centered">
+    <a href="https://en.wikipedia.org/wiki/Natural_language_processing", target="_blank">
+    <p> Language</p>
+    </a>
+  </div>
+  <div class="has-text-centered">
+    <a href="https://en.wikipedia.org/wiki/Time_series", target="_blank">
+    <p> Time-series</p>
+  </a>
+  </div>
+
+</div>
 <div class=" multi_column">
     <div>
       <div class="hvr-grow modality">
         <a href="https://en.wikipedia.org/wiki/ImageNet" target="_blank">
         <img src="static/images/image.svg" alt="point cloud"/>
-        </a>
+      </a>
       </div>
     </div>
     <div >
@@ -186,7 +240,7 @@
     </div >
     <div >
       <div class="hvr-grow modality">
-        <a href="", target="_blank">
+        <a href="https://en.wikipedia.org/wiki/Graph_(abstract_data_type)", target="_blank">
           <img src="static/images/graph.svg" alt="point cloud"/>
         </a>
       </div>
@@ -220,7 +274,7 @@
       </div>
     </div>
     <div >
-      <div class="hvr-grow modality">
+      <div class="modality">
         <a href="https://en.wikipedia.org/wiki/Time_series", target="_blank">
           <img src="static/images/time-series.svg" alt="point cloud"/>
         </a>
@@ -259,6 +313,13 @@
           <img src="static/images/framework.png" alt="MY ALT TEXT"/>
           <p>
             Illustration of Unified Multimodal Learning framework for natural language, images, point clouds, and audio spectrograms. An all-to-one tokenizer is used to convert the raw input data from different modalities to a shared token space. Then, a modality-shared encoder with frozen parameters is used to extract high-level semantic features of the input data. Finally, task-specific heads are used for downstream tasks. This framework enables perceiving different modalities with one shared encoder and without paired data.
+          </p>
+        </div>
+        <h2 class="title is-3">Tokenizer</h2>
+        <div class="content has-text-justified">
+          <img src="static/images/tokenizer.png" alt="MY ALT TEXT"/>
+          <p>
+            We propose the meta scheme in (a) containing grouping, convolution, and transformation progress. Then (b)-(e) represents the building blocks applied with our meta scheme on texts, images, point clouds, and audio spectrograms.
           </p>
         </div>
       </div>
