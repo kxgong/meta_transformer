@@ -351,6 +351,9 @@ Modalities
             Multimodal learning involves utilizing data from various modalities to improve model capacity. Despite the years of development in this field, it remains challenging to devise a unified framework for processing natural language, 2D images, 3D point clouds, and audio spectrograms due to crucial gaps among these different modalities. This study proposes a novel approach that demonstrates a network with frozen parameters can encode the data from the aforementioned four modalities and achieve favorable performance, resulting in a unified framework called Meta Transformer. Using this framework, the raw input data from various modalities are converted to a shared token space, allowing a subsequent encoder with frozen parameters to extract high-level semantic features of the input data. Composed of three main components: a unified data tokenizer, a modality-shared encoder, and task-specific heads for downstream tasks, Meta Transformer is the first framework for unified learning among the four modalities with unpaired data, to the best of our knowledge. We evaluated Meta Transformer on different benchmarks across modalities, such as ImageNet for classification, GLUE for text understanding, ModelNet-40, S3DIS, ShapeNetPart for point cloud, and Speech Commands V2 for speech spectrograms. These results indicate a promising future for developing unified multimodal intelligence with transformers.
           </p>
           <img width="750px" src="static/images/Meta-Transformer_application.png" alt="MY ALT TEXT"/>
+          <p>
+            Meta-Transformer can be applied to many application fields, including 3D recognition, nighttime securaity, weather prediction, etc.
+          </p>
         </div>
       </div>
     </div>
