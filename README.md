@@ -1,5 +1,7 @@
 # Project Page Code of Meta-Transformer
 
+**Meta-Transformer: A Unified Framework for Multimodal Learning**
+
 - arXiv: [this link](https://arxiv.org/abs/2307.10802)
 
 - Project Page: [this link](https://kxgong.github.io/meta_transformer/)
