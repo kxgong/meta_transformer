@@ -1,6 +1,6 @@
 # Project Page Code of Meta-Transformer
 
-**Meta-Transformer: A Unified Framework for Multimodal Learning**
+###Meta-Transformer: A Unified Framework for Multimodal Learning
 
 - arXiv: [this link](https://arxiv.org/abs/2307.10802)
 
